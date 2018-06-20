@@ -1,19 +1,27 @@
      body { 
-         background-image: url("../resources/background.jpg") !important;
-         background-size: 190%!important;
+        /* background-image: url("../resources/background.jpg") !important;
+         background-size: 200%!important;*/
+         background-color: #9fcdff !important;
          color: navy !important;
      }
      
      h1 {
-         margin-left: auto;
+         margin-left: 27% !important;
          color: black !important;
+     }
+
+     form {
+         margin-left: 55%;
+     }
+
+     input[type=text] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 30px 0;
+         box-sizing: border-box;
      }
     
     .jumbatron {
         background-color: black;
         color: black;
     }
-
-    #wind {
-            margin-left: 8px;
-        }
